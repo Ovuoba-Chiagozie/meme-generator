@@ -3,7 +3,7 @@ import ReactDOM, { createRoot } from "react-dom/client";
 import "./index.css";
 import Header from "./components/Header";
 import Body from "./components/Body";
-
+import MemeGenerator from "./components/Meme-generator";
 let example = document.getElementById('root')
 let root = ReactDOM.createRoot(example)
 
@@ -14,8 +14,8 @@ const App = () => {
         <div className="app">
 
             <Header />
-            <Body />
-
+            <MemeGenerator />
+           
         </div>
     )
 

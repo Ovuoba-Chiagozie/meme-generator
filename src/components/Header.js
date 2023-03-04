@@ -1,13 +1,14 @@
-import world from "../img/Fill 213.png"
+import face from "../img/Troll Face.png"
 
 const Header = () => {
 
     return(
 
-        <div className="header">
-            <img src={world}/>
-            <p>my travel journal.</p>
-        </div>
+        <header className="header">
+            <img src={face}/>
+            <h3>Meme Generator</h3>
+            <p>React Course - Project 3</p>
+        </header>
 
     )
 

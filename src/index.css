@@ -7,8 +7,9 @@
 
 body{
 
-  background: #000000;
   font-family: 'Inter', 'sans-serif';
+  box-sizing: border-box;
+  background: #487170;
 
 }
 
@@ -32,134 +33,151 @@ h1, h3, p, a, span, img {
 
 }
 
-.header{
+.header {
 
-  width: 550px;
-  height:55px;
-  background: #F55A5A;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.header > img{
-
-  width: 24px;
-  padding-right: 7px;
+width: 550px;
+height: 65px;
+background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 6.69px;
+padding: 0px 37px 0px 20px;
+box-sizing: border-box;
 
 }
 
-.header > p {
+.header  img{
 
+width: 31.31px;
+height: 26.22px;
 
-width: 109px;
-height: 16px;
-font-weight: 500;
-font-size: 14.4608px;
-line-height: 18px;
-letter-spacing: -0.075em;
+}
+
+.header h3 {
+
+width: 140.79px;
+height: 24px;
+font-family: 'Karla';
+font-weight: 700;
+font-size: 20.7482px;
+line-height: 24px;
+letter-spacing: -0.1em;
+color: #FFFFFF;
+margin-right: auto;
+
+}
+
+.header p {
+
+width: 189px;
+height: 14px;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
 color: #FFFFFF;
 
 }
 
-.mainbody {
+.generator{
 
-  background: #FFFFFF;
-  padding-top: 44px;
-
-}
-
-.cards {
   display: flex;
+  flex-wrap: wrap;
+  width: 550px;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid #F5F5F5;
-  padding-bottom: 14px;
-  margin: 0 40px 18px 40px;
+  padding-top: 36px;
+  background: #FFFFFF;
+
 }
 
-.cards > img {
 
-width: 125px;
-height: 168px;
+
+.generator > input {
+
+  width: 230px;
+height: 35px;
+border: 1px solid #D5D4D8;
 border-radius: 5px;
-
-}
-
-.country--div {
-
-  display: flex;
-  align-items: flex-start;
-
-}
-
-.country--div > span {
-
-
-height: 10px;
-font-weight: 400;
-font-size: 10.24px;
-line-height: 12px;
-letter-spacing: 0.17em;
-color: #2B283A;
-margin-left:4px;
+display: block;
 
 
 }
 
-.country--div > a {
+.generator--first_input {
 
-width: 106px;
-height: 13px;
-font-weight: 400;
-font-size: 10.24px;
-line-height: 12px;
-text-decoration-line: underline;
-color: #918E9B;
-align-self: flex-end;
-margin-left: 12px;
+  margin-right: 17px;
 
 }
 
-.cards--explainer {
+.generator--button {
 
-  margin-left: 19px;
-
-}
-
-.cards--explainer > h1 {
-
-width: 326px;
+width: 477px;
 height: 40px;
+background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+border-radius: 5px;
+display: block;
+border: 0px solid;
+font-family: 'Karla';
 font-weight: 700;
-font-size: 25px;
-line-height: 30px;
-color: #2B283A;
-margin-top: 4px;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: -0.1em;
+color: #FFFFFF;
+margin-top: 15px;
 
 }
 
-.cards--explainer > h3 {
+.generator--img {
 
-width: 319px;
-height: 11px;
-font-weight: 700;
-font-size: 10.24px;
-line-height: 12px;
-color: #2B283A;
-margin-top: 7px;
+
+max-width: 100%;
+    border-radius: 3px;
 
 }
 
-.cards--explainer > p {
+.meme {
+    position: relative;
+    width: 477px;
+/* height: 268px; */
+margin: 36px 0px 55px 0px;
+border: none;
+}
 
-width: 326px;
-height: 45px;
-font-weight: 400;
-font-size: 10.24px;
-line-height: 150%;
-color: #2B283A;
-margin-top: 9px;
+.meme--text {
 
+position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
