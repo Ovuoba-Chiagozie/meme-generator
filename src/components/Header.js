@@ -7,7 +7,7 @@ const Header = () => {
         <header className="header">
             <img src={face}/>
             <h3>Meme Generator</h3>
-            <p>React Course - Project 3</p>
+            <p>Built with React</p>
         </header>
 
     )
